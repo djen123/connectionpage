@@ -1,0 +1,63 @@
+  body {
+            
+            
+    }
+    /** style for cards **/
+    * {
+box-sizing: border-box;
+}
+
+/**profile card styling**/
+
+.profile-card {
+    background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    color: white;
+     
+}
+
+.profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+       }
+  .profile-img {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    
+/**navbar styling**/
+.navbar{
+margin:10px auto;}
+/** style for navbar nav elemets for spacing **/
+
+.navbar-nav {
+  width: 300px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+
+}
+
+/**left side box**/
+.leftside-box {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.mutualfriends img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+  margin-left: -12px; /* overlap amount */
+}
+
+.mutualfriends img:first-child {
+  margin-left: 0; /* first image stays normal */
+}
