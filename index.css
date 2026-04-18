@@ -1,8 +1,9 @@
   body {
-            
+            margin:0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
             
     }
-    /** style for cards **/
     * {
 box-sizing: border-box;
 }
@@ -12,8 +13,10 @@ box-sizing: border-box;
     
 /**navbar styling**/
 .navbar{
-margin:10px auto;}
+margin:10px auto;
 /** style for navbar nav elemets for spacing **/
+
+}
 
 .navbar-nav {
   width: 300px;
@@ -31,6 +34,7 @@ margin:10px auto;}
       top: 40px;
     }
 
+    /** main content styling**/
     .connection-card {
       border-radius: 12px;
       border: 1px solid #e0dfdc;
@@ -43,7 +47,7 @@ margin:10px auto;}
       box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
       transform: translateY(-2px);
     }
-
+    /** common styling for avatars and mutual connection avatars **/
     .avatar {
       width: 56px;
       height: 56px;
@@ -88,30 +92,3 @@ margin:10px auto;}
       font-size: 0.85rem;
     }
 
-.notification-bell {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    padding: 8px;
-}
-
-.notification-bell i {
-    font-size: 1.4rem;
-    color: #555;
-    transition: 0.2s;
-}
-
-.notification-bell:hover i {
-    color: #000;
-}
-
-.notification-bell .badge {
-    position: absolute;
-    top: 2px;
-    right: 2px;
-    background: red;
-    color: white;
-    font-size: 0.65rem;
-    padding: 2px 5px;
-    border-radius: 50%;
-}
