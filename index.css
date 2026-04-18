@@ -7,24 +7,8 @@
 box-sizing: border-box;
 }
 
-/**profile card styling**/
 
-.profile-card {
-    background: linear-gradient(135deg, #6dd5fa, #2980b9);
-    color: white;
-     
-}
 
-.profile-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-       }
-  .profile-img {
-            width: 90px;
-            height: 90px;
-            object-fit: cover;
-            border-radius: 50%;
-        }
     
 /**navbar styling**/
 .navbar{
@@ -40,24 +24,67 @@ margin:10px auto;}
 
 }
 
-/**left side box**/
-.leftside-box {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+/**left sidebar styling**/
 
+.sidebar-card {
+      position: sticky;
+      top: 40px;
+    }
 
-.mutualfriends img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  object-fit: cover;
-  margin-left: -12px; /* overlap amount */
-}
+    .connection-card {
+      border-radius: 12px;
+      border: 1px solid #e0dfdc;
+      transition: box-shadow 0.15s ease, transform 0.15s ease;
+  
 
-.mutualfriends img:first-child {
-  margin-left: 0; /* first image stays normal */
-}
+    }
+
+    .connection-card:hover {
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .mutual-avatars img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      margin-left: -8px;
+    }
+
+    .mutual-avatars img:first-child {
+      margin-left: 0;
+    }
+
+    .badge-role {
+      background-color: #e8f3ff;
+      color: #0a66c2;
+      font-weight: 500;
+      font-size: 0.75rem;
+      border-radius: 999px;
+      padding: 0.15rem 0.6rem;
+    }
+
+    .btn-connect {
+      border-radius: 999px;
+      font-weight: 600;
+      padding-inline: 1.2rem;
+    }
+
+    .btn-message {
+      border-radius: 999px;
+      font-weight: 500;
+    }
+
+    .filter-pill {
+      border-radius: 999px;
+      font-size: 0.85rem;
+    }
+
