@@ -9,9 +9,15 @@ box-sizing: border-box;
 }
 
 
+.logo{
+ 
+  color:#470741;
+  font-weight:700;
 
+
+}
     
-/**navbar styling**/
+/**navbar styling****/
 .navbar{
 margin:10px auto;
 /** style for navbar nav elemets for spacing **/
